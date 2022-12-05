@@ -1,0 +1,56 @@
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 60px;
+}
+
+.card {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url(https://s03.video.glbimg.com/x720/9955266.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://rollingstone.uol.com.br/media/_versions/zoe_kravitz_divulgacao_widelg.jpg);
+}
+
+.banner-3 {
+    background-image: url(https://ovicio.com.br/wp-content/uploads/2020/12/20201218-jeffrey_wright_gotham_the_batman_hbo_max_commissioner_gordon-555x555.png);
+}
+
+@media(max-width: 768px){
+    .cards-content {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+}

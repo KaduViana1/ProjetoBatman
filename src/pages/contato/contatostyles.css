@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap'); 
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    margin-top: -50px;
+    width: 50%;
+    height: 410px;
+    background-image: url(../../assets/Thumb.png);
+    background-size: cover;
+}
+
+.span {
+    font-size: 80px;
+    margin-top: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.Formulario {
+    border: none;
+    background-color: #fff;    
+    height: 25px;
+    width: 500px;
+    outline: none;
+}
+.Labels {
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+}
+#msglabel {
+font-size: 25px;
+color: aliceblue;
+display: block;}
+
+.Botao {
+    margin-top: 20px;
+    width: 150px;
+    height: 45px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+.Botao:hover {
+    background-color: aliceblue;
+    color: red;
+    transition: 0.6s;
+}
+
+#Formulario {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Mensagem {
+    width: 500px;
+    outline: none;
+}
+
+@media(max-width: 768px) {
+    .image {width: 100%;
+    background-position: 50% 50%;
+    margin-bottom: none;
+    margin-top: -30px;
+    height: 350px;}
+    
+    #contato {width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+    
+    .span {font-size: 40px;margin-top: -80px;}
+    .Labels {font-size: 25px;}
+    #msglabel {font-size: 25px;}
+    .Formulario {
+        width: 350px;
+        height: 32px;    
+    }
+    .Botao {
+        width: 140px;
+        height: 45px;
+        font-size: 20px;
+    }
+     #Mensagem {width: 350px; outline: none; }
+}
