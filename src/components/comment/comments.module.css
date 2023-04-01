@@ -1,0 +1,25 @@
+.container {
+  margin-inline: auto;
+  width: 98%;
+  height: fit-content;
+  margin-block: 15px;
+  border: 1px solid hsl(0, 0%, 50%);
+  padding: 10px 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.container > img {
+  max-height: 100px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 1.2rem;
+  color: #d21617;
+}

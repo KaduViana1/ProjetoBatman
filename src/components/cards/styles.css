@@ -1,0 +1,66 @@
+.actor-cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  margin-top: 50px;
+}
+
+.cards-content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 60px;
+}
+
+.card {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.banner-1 {
+  background-image: url('../../assets/Card1.jpg');
+  background-position: 70% 50%;
+}
+
+.banner-2 {
+  background-image: url('../../assets/Card2.jpg');
+  background-position: 50% 50%;
+}
+
+.banner-3 {
+  background-image: url('../../assets/Card3.jpg');
+  background-position: 50% 50%;
+}
+
+@media (max-width: 768px) {
+  .cards-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    height: 450px;
+  }
+
+  .actor-cards-container {
+    margin-top: 150px;
+  }
+}
