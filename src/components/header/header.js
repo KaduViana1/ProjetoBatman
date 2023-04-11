@@ -9,16 +9,16 @@ function Header() {
       <img className={styles.logo} alt="logo" src={Logo} />
       <nav>
         <ul>
-          <Link to={'/'}>
+          <Link to={'/'} className="router-a">
             <li>Home</li>
           </Link>
-          <Link to={'/contato'}>
+          <Link to={'/contato'} className="router-a">
             <li>Contato </li>
           </Link>
-          <Link to={'/fotos'}>
+          <Link to={'/fotos'} className="router-a">
             <li>Fotos</li>
           </Link>
-          <Link to={'/comentarios'}>
+          <Link to={'/comentarios'} className="router-a">
             <li>Comentarios</li>
           </Link>
         </ul>

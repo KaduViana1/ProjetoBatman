@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './contatostyles.module.css';
 import InstagramIcon from '../../assets/instagram.svg';
-import FacebookIcon from '../../assets/facebook.svg';
+import GitHubIcon from '../../assets/github.svg';
 import LinkedinIcon from '../../assets/linkedin.svg';
 
 function Contato() {
@@ -22,9 +22,22 @@ function Contato() {
             </button>
           </form>
           <div className={styles.iconsContainer}>
-            <img className={styles.image} src={LinkedinIcon} alt="LinkedIn" />
-            <img className={styles.image} src={FacebookIcon} alt="Facebook" />
-            <img className={styles.image} src={InstagramIcon} alt="Instagram" />
+            <a
+              href="https://www.linkedin.com/in/carlos-eduardo-viana-812128272/"
+              target="_blank"
+            >
+              <img className={styles.image} src={LinkedinIcon} alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/KaduViana1" target="_blank">
+              <img className={styles.image} src={GitHubIcon} alt="Github" />
+            </a>
+            <a href="https://www.instagram.com/kaduv96/" target="_blank">
+              <img
+                className={styles.image}
+                src={InstagramIcon}
+                alt="Instagram"
+              />
+            </a>
           </div>
         </div>
       </main>
