@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './fotosstyles.module.css';
 import Photo01 from '../../assets/Foto01.jpg';
-import Photo02 from '../../assets/Foto02.jpeg';
+import Photo02 from '../../assets/Foto02.jpg';
 import Photo03 from '../../assets/Foto03.jpg';
 import Photo04 from '../../assets/Foto04.jpg';
 import Photo05 from '../../assets/Foto05.jpg';

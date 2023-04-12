@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './homestyles.module.css';
-import Trailer from '../../assets/trailer.mp4';
 import Cards from '../../components/cards/index';
 
 function Home() {
@@ -9,10 +8,14 @@ function Home() {
       <div className={styles.banner}></div>
       <div className={styles.trailerContainer}>
         <div className={styles.content}>
-          <video controls className={styles.trailer}>
-            <source src={Trailer} />
-            Seu navegador não possui suporte para videos.
-          </video>
+          <iframe
+            className={styles.trailer}
+            src="https://www.youtube.com/embed/XmazCGOqO2g"
+            title="BATMAN  | Trailer 2 Oficial Legendado | DC FanDome 2021"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
           <div className={styles.sinopse}>
             <p className={styles.description}>
               Após dois anos espreitando as ruas como Batman, Bruce Wayne se

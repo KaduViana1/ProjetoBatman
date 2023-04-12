@@ -13,7 +13,7 @@
   height: 400px;
   display: flex;
   justify-content: center;
-  background-color: #000;
+  background-color: black;
 }
 
 .content {
@@ -25,14 +25,16 @@
 
 .trailer {
   width: 50%;
-  height: 100%;
+  height: 80%;
 }
 
 .sinopse {
+  padding: 0;
   width: 50%;
+  height: 75%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-left: 30px;
 }
 
@@ -41,7 +43,6 @@
   font-size: 19px;
   font-family: 'Kdam Thmor Pro', sans-serif;
   width: 70%;
-  padding-top: 30px;
 }
 
 .button {
@@ -58,8 +59,7 @@
   justify-content: center;
   font-weight: bold;
   border: none;
-  outline: none;
-  margin-top: 25px;
+  outline: transparent;
   align-items: center;
 }
 
@@ -79,6 +79,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 250px;
   }
   .content {
     box-sizing: border-box;
@@ -89,8 +90,9 @@
     align-items: center;
   }
   .trailer {
+    height: 250px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 150px;
   }
   .sinopse {
     width: 100%;
