@@ -28,9 +28,9 @@
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-.router-a,
-.router-a:link,
-.router-a:visited {
+a,
+a:link,
+a:visited {
   text-decoration: none;
 }
 
